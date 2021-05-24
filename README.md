@@ -14,7 +14,7 @@
 
 4. Aguarde alguns minutos para que a máquina esteja pronta. 
 
-5. Entre no serviço EC2, copie o IP Público, em um navegador faça o acesso http:\\ippublico para acessar a página do nginx.
+5. Entre no serviço EC2, copie o IP Público, em um navegador faça o acesso http:\\\ippublico para acessar a página do nginx.
 
 
 
