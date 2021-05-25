@@ -1,0 +1,19 @@
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+        root /var/www/html;
+
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+
+        error_log /data/logs/nginx_error.log error;
+        access_log /data/logs/nginx_error.log combined;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+}
+
